@@ -42,8 +42,8 @@ No frameworks or JavaScript — just pure HTML/CSS practice
 
 
 🔗 Live Site & Repo
-🌐 Live Site: [Insert Netlify link here]
- 📁 GitHub Repo: [Insert GitHub repo link here]
+🌐 Live Site: (https://the-daily-dribble-remix.netlify.app/)
+ 📁 GitHub Repo: (https://github.com/KodingHoodie/The-Daily-Dribble-Remix)
 
 🙌 Why This Matters
 This project helped me build confidence while remixing something simple into something visually sharp and personalized.
