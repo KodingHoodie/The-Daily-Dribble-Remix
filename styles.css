@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'harlem';
+    src: url(font/Harlem\ Normal\ Regular.otf);
+}
+* {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+body {
+    margin: 0 auto;
+    padding: 0;    
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+    background: linear-gradient(90deg, #8E2DE2, #FF6A00);
+}
+header {
+    display: flex;
+    justify-content: center;
+    position: relative;   
+}
+header .logo {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+}
+.dunk-img {
+    width: 300px;
+    bottom: 17px;
+    position: relative;
+    right: -3px;
+}
+.pre-heading {
+    font-style: italic;
+    padding: 30px;
+    font-weight: 300;   
+}
+.main-title {
+    font-size: 6rem;
+    font-family: 'harlem';
+    letter-spacing: 14px;  
+    color: #f1c40f;
+    text-shadow: -3px 6px 10px black;
+    top: -80px;
+    position: relative;
+    font-weight: 600;
+}
+.main-tagline {
+    font-size: 20px;
+    color: #fafafa;
+    text-shadow: -1px 2px 5px #000;
+    margin-top: -70px;
+    position: relative;
+    font-family: "Open Sans", sans-serif;
+    
+} 
+.btn-style {
+    padding: 10px 40px;
+    border: 2px solid black;
+    background: #3e003c;
+    font-size: 1.2rem;  
+    border-radius: 10px;
+    color: #f1c40f;
+    font-family: "Open Sans", sans-serif;
+    text-transform: capitalize;
+    margin-top: 40px;
+    font-weight: 400;
+    cursor: pointer;  
+}
+.btn-style:hover {
+    background-color: #7300d8;
+    color: #f1c40f;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+.footer {
+    margin-top: 30px;
+    font-size: small;
+}
+.source {
+    color: #3e003c;
+}
+
+/* ===== Mobile ===== */
+@media (max-width: 600px) {
+  body {
+    background: linear-gradient(to bottom, #FF6A00, #8E2DE2);
+    padding: 10px;
+    min-height: 100vh;
+  }
+
+  header .logo {
+    width: 300px;
+    height: 300px; 
+  }
+
+  .dunk-img {
+    width: 200px;
+    bottom: 0;
+    right: 0;
+    margin-top: -50px;
+  }
+
+  .main-title {
+    font-size: 3.5rem;
+    letter-spacing: 6px;
+    top: -40px;
+  }
+
+  .main-tagline {
+    font-size: 16px;
+    margin-top: -30px;
+    padding: 0 15px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .btn-style {
+    padding: 8px 20px;
+    font-size: 0.9rem;
+    margin-top: 30px;
+  }
+
+  .footer {
+    margin-top: 40px;
+    font-size: 0.8rem;
+  }
+}
+
